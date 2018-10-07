@@ -958,12 +958,12 @@ public class order extends javax.swing.JFrame {
                 main_menu.setVisible(true);
                 login.setVisible(false);
                 glitch.setVisible(false);
-                try 
+               /* try 
                {
                 ps1 = myconnection.ConnectDb().prepareStatement(query2);
                 ps1.setString(1, uname);
                 rs1 = ps1.executeQuery();   
-                 if(rs1.next())
+                if(rs1.next())
                  {   
                   
                   String logg = "INSERT INTO `loginreg`(`loged`) VALUES (boo1)";
@@ -981,7 +981,7 @@ public class order extends javax.swing.JFrame {
                 catch (SQLException ex) {
                     System.out.println("logg error");
                   }
-                
+                */
             } else {
                 JOptionPane.showMessageDialog(null, "Login Failed");
             }
